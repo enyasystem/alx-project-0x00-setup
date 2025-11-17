@@ -50,5 +50,33 @@ If you'd like, I can also:
 - create a short CONTRIBUTING guide, or
 - open a commit with this README update.
 
+📌 **Task 2 — Basic Routing (Next.js Pages Router)**
+
+This task introduces simple routing in `Next.js` using the Pages Router. Each file inside the pages/ folder automatically becomes a route in the app.
+
+**What I Did**
+
+Created two new pages:
+
+pages/landing.tsx → /landing
+
+pages/about.tsx → /about
+
+Added simple functional components to both pages.
+
+Tested the routes in the browser using the development server.
+
+How to Run the Project
+npm run dev -- -p 3000
+
+
+**Visit the pages:**
+
+``http://localhost:3000/landing``
+
+``http://localhost:3000/about``
+
+Both pages render simple text confirming that routing works.
+
 ---
 Updated README to include usage and run instructions for the Next.js app.
