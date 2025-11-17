@@ -22,6 +22,9 @@ const Landing: React.FC = () => {
             <Button title="Large - Rounded SM" styles="text-lg rounded-sm" />
             <Button title="Large - Rounded MD" styles="text-lg rounded-md" />
             <Button title="Large - Rounded Full" styles="text-lg rounded-full" />
+
+            <Button title="Extra Button" styles="bg-blue-500 text-white px-4 py-2 rounded-lg text-base" />
+
         </div>
         
     );
